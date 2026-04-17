@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ellos Design — Agência de marketing e criação de sites em Guarulhos/SP" />
+  <title>Ellos Design</title>
+
+  <!-- Google Fonts: Syne (display) · Outfit (body) · DM Mono (mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#" class="nav-logo">Ellos<span>.</span></a>
+
+        <ul class="nav-links">
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <div class="nav-right">
+          <a href="#contato" class="btn btn-primary">Fale Conosco</a>
+          <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Menu mobile (drawer) -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#servicos"    class="m-link">Serviços</a>
+    <a href="#sobre"       class="m-link">Sobre</a>
+    <a href="#portfolio"   class="m-link">Portfólio</a>
+    <a href="#depoimentos" class="m-link">Depoimentos</a>
+    <a href="#contato"     class="m-link">Contato</a>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <!-- Texto principal -->
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Agência Digital · Guarulhos, SP
+          </div>
+
+          <h1 class="hero-title">
+            Transformamos ideias<br>
+            em <span class="gradient-text">experiências digitais</span><br>
+            que convertem.
+          </h1>
+
+          <p class="hero-subtitle">
+            Design estratégico, desenvolvimento web de alto nível e
+            marketing digital para fazer sua marca crescer online.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#portfolio" class="btn btn-primary">
+              Ver Projetos
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="#contato" class="btn btn-outline">Falar Conosco</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-value">200<span>+</span></div>
+              <div class="hero-stat-label">Projetos entregues</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-value">98<span>%</span></div>
+              <div class="hero-stat-label">Clientes satisfeitos</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-value">5<span>+</span></div>
+              <div class="hero-stat-label">Anos de mercado</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual: mockup de dashboard -->
+        <div class="hero-visual">
+          <div class="hero-visual-inner">
+
+            <!-- Card flutuante superior -->
+            <div class="float-card float-card-a">
+              <div class="fc-tiny">Novos visitantes hoje</div>
+              <div class="fc-big" style="color:var(--accent-2)">+2.4k</div>
+            </div>
+
+            <!-- Janela do mockup -->
+            <div class="mockup-window">
+              <div class="mockup-bar">
+                <div class="dot dot-r"></div>
+                <div class="dot dot-a"></div>
+                <div class="dot dot-g"></div>
+                <div class="fake-url">ellos.design/analytics</div>
+              </div>
+              <div class="mockup-body">
+                <div class="mockup-label">Performance — últimos 7 dias</div>
+
+                <div class="metric-row">
+                  <span class="metric-name">Taxa de conversão</span>
+                  <span class="metric-val">12.4%</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" style="width:74%; animation-delay:.8s"></div>
+                </div>
+
+                <div class="metric-row">
+                  <span class="metric-name">Alcance orgânico</span>
+                  <span class="metric-val">8.2k</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" style="width:58%; animation-delay:1s"></div>
+                </div>
+
+                <div class="metric-row">
+                  <span class="metric-name">ROI médio</span>
+                  <span class="metric-val">340%</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" style="width:88%; animation-delay:1.2s"></div>
+                </div>
+
+                <div class="mini-chart">
+                  <div class="mc-bar"><div class="mc-fill" style="height:38%; animation-delay:.90s"></div></div>
+                  <div class="mc-bar"><div class="mc-fill" style="height:62%; animation-delay:.95s"></div></div>
+                  <div class="mc-bar"><div class="mc-fill" style="height:48%; animation-delay:1.00s"></div></div>
+                  <div class="mc-bar"><div class="mc-fill" style="height:78%; animation-delay:1.05s"></div></div>
+                  <div class="mc-bar"><div class="mc-fill" style="height:68%; animation-delay:1.10s"></div></div>
+                  <div class="mc-bar"><div class="mc-fill" style="height:92%; animation-delay:1.15s"></div></div>
+                  <div class="mc-bar"><div class="mc-fill" style="height:74%; animation-delay:1.20s"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card flutuante inferior -->
+            <div class="float-card float-card-b">
+              <div class="fci">
+                <svg viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                </svg>
+              </div>
+              <div>
+                <div class="fc-big">+147%</div>
+                <div class="fc-tiny">Crescimento anual</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       MARQUEE
+  ═══════════════════════════════════════════ -->
+  <div class="marquee-section" aria-hidden="true">
+    <div class="marquee-track">
+      <!-- Primeira cópia -->
+      <span class="mi">Branding</span><span class="ms">·</span>
+      <span class="mi">UI Design</span><span class="ms">·</span>
+      <span class="mi">Desenvolvimento Web</span><span class="ms">·</span>
+      <span class="mi">Marketing Digital</span><span class="ms">·</span>
+      <span class="mi">SEO</span><span class="ms">·</span>
+      <span class="mi">E-commerce</span><span class="ms">·</span>
+      <span class="mi">Identidade Visual</span><span class="ms">·</span>
+      <span class="mi">Social Media</span><span class="ms">·</span>
+      <!-- Segunda cópia (loop sem corte) -->
+      <span class="mi">Branding</span><span class="ms">·</span>
+      <span class="mi">UI Design</span><span class="ms">·</span>
+      <span class="mi">Desenvolvimento Web</span><span class="ms">·</span>
+      <span class="mi">Marketing Digital</span><span class="ms">·</span>
+      <span class="mi">SEO</span><span class="ms">·</span>
+      <span class="mi">E-commerce</span><span class="ms">·</span>
+      <span class="mi">Identidade Visual</span><span class="ms">·</span>
+      <span class="mi">Social Media</span><span class="ms">·</span>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════
+       SERVIÇOS
+  ═══════════════════════════════════════════ -->
+  <section class="section" id="servicos">
+    <div class="container">
+
+      <div class="services-header reveal">
+        <div>
+          <span class="section-tag">O que fazemos</span>
+          <h2 class="section-title">Soluções digitais completas<br>para sua marca crescer</h2>
+        </div>
+        <p class="section-desc">Da estratégia à execução, entregamos resultados reais com criatividade, tecnologia e dados.</p>
+      </div>
+
+      <div class="services-grid reveal-stagger">
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="3" y="3" width="7" height="7" rx="1"/>
+              <rect x="14" y="3" width="7" height="7" rx="1"/>
+              <rect x="3" y="14" width="7" height="7" rx="1"/>
+              <rect x="14" y="14" width="7" height="7" rx="1"/>
+            </svg>
+          </div>
+          <h3 class="service-title">UI/UX &amp; Branding</h3>
+          <p class="service-desc">Identidade visual marcante e interfaces intuitivas que comunicam os valores da sua marca com clareza e impacto duradouro.</p>
+          <span class="service-link">Saiba mais →</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <polyline points="16 18 22 12 16 6"/>
+              <polyline points="8 6 2 12 8 18"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Desenvolvimento Web</h3>
+          <p class="service-desc">Sites, landing pages e e-commerces rápidos, responsivos e otimizados com as melhores tecnologias do mercado.</p>
+          <span class="service-link">Saiba mais →</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Marketing Digital</h3>
+          <p class="service-desc">Estratégias de conteúdo, gestão de tráfego pago e social media para aumentar sua presença e gerar vendas online.</p>
+          <span class="service-link">Saiba mais →</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.35-4.35"/>
+            </svg>
+          </div>
+          <h3 class="service-title">SEO &amp; Performance</h3>
+          <p class="service-desc">Otimização técnica e de conteúdo para rankear nos primeiros resultados do Google e acelerar seu crescimento orgânico.</p>
+          <span class="service-link">Saiba mais →</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       SOBRE
+  ═══════════════════════════════════════════ -->
+  <section class="section about" id="sobre">
+    <div class="container">
+      <div class="about-inner">
+
+        <!-- Visual com número de anos -->
+        <div class="about-visual reveal from-left">
+          <div class="about-img">
+            <div class="about-img-inner">
+              <div class="about-years" id="yearsCounter">5</div>
+              <div class="about-years-lbl">anos transformando<br>negócios digitais</div>
+            </div>
+          </div>
+          <div class="about-float">
+            <div class="val">200+</div>
+            <div class="lbl">Projetos concluídos</div>
+          </div>
+        </div>
+
+        <!-- Texto + estatísticas -->
+        <div class="reveal from-right">
+          <span class="section-tag">Sobre nós</span>
+          <h2 class="section-title">Somos apaixonados por<br>resultados digitais</h2>
+          <p class="section-desc">
+            A Ellos Design é uma agência de marketing e criação de sites localizada em Guarulhos/SP. Somos uma equipe em constante evolução, sempre abertos a novas tecnologias e aprendizados, com um único objetivo: fazer sua marca crescer no digital.
+          </p>
+
+          <div class="about-stats">
+            <div class="about-stat">
+              <div class="about-stat-num" data-target="200" data-suffix="+">0</div>
+              <div class="about-stat-lbl">Projetos entregues</div>
+            </div>
+            <div class="about-stat">
+              <div class="about-stat-num" data-target="98" data-suffix="%">0</div>
+              <div class="about-stat-lbl">Taxa de satisfação</div>
+            </div>
+            <div class="about-stat">
+              <div class="about-stat-num" data-target="50" data-suffix="+">0</div>
+              <div class="about-stat-lbl">Clientes ativos</div>
+            </div>
+            <div class="about-stat">
+              <div class="about-stat-num" data-target="5" data-suffix="+">0</div>
+              <div class="about-stat-lbl">Anos de experiência</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       PORTFÓLIO
+  ═══════════════════════════════════════════ -->
+  <section class="section" id="portfolio">
+    <div class="container">
+
+      <div class="portfolio-header reveal">
+        <div>
+          <span class="section-tag">Nosso trabalho</span>
+          <h2 class="section-title">Projetos que<br>falam por si</h2>
+        </div>
+        <a href="#contato" class="btn btn-outline">Ver todos os projetos</a>
+      </div>
+
+      <div class="portfolio-grid reveal-stagger">
+
+        <div class="portfolio-card span2">
+          <div class="pcard-bg bg1"></div>
+          <div class="pcard-label">ReStore E-commerce</div>
+          <div class="pcard-overlay">
+            <span class="pcard-tag">E-commerce</span>
+            <div class="pcard-title">ReStore — Plataforma de Vendas</div>
+            <div class="pcard-sub">Design + Desenvolvimento + SEO</div>
+          </div>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="pcard-bg bg2"></div>
+          <div class="pcard-label">Branding Nexio</div>
+          <div class="pcard-overlay">
+            <span class="pcard-tag">Branding</span>
+            <div class="pcard-title">Nexio — Identidade Visual</div>
+            <div class="pcard-sub">Marca + UI System</div>
+          </div>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="pcard-bg bg3"></div>
+          <div class="pcard-label">Landing Page Vitra</div>
+          <div class="pcard-overlay">
+            <span class="pcard-tag">Landing Page</span>
+            <div class="pcard-title">Vitra — Página de Vendas</div>
+            <div class="pcard-sub">Conversão + Performance</div>
+          </div>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="pcard-bg bg4"></div>
+          <div class="pcard-label">App Fintech Kora</div>
+          <div class="pcard-overlay">
+            <span class="pcard-tag">UI/UX Design</span>
+            <div class="pcard-title">Kora — Dashboard Financeiro</div>
+            <div class="pcard-sub">Produto Digital</div>
+          </div>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="pcard-bg bg5"></div>
+          <div class="pcard-label">Portal TechBlog</div>
+          <div class="pcard-overlay">
+            <span class="pcard-tag">Web Development</span>
+            <div class="pcard-title">TechBlog — Portal de Conteúdo</div>
+            <div class="pcard-sub">CMS + SEO + Performance</div>
+          </div>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="pcard-bg bg6"></div>
+          <div class="pcard-label">Social Ativa</div>
+          <div class="pcard-overlay">
+            <span class="pcard-tag">Marketing Digital</span>
+            <div class="pcard-title">Ativa — Gestão de Mídias</div>
+            <div class="pcard-sub">Social + Tráfego Pago</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       DEPOIMENTOS
+  ═══════════════════════════════════════════ -->
+  <section class="section testimonials" id="depoimentos">
+    <div class="container">
+
+      <div class="reveal" style="text-align:center; max-width:520px; margin:0 auto 56px;">
+        <span class="section-tag">Depoimentos</span>
+        <h2 class="section-title">O que nossos<br>clientes dizem</h2>
+      </div>
+
+      <div class="testimonials-grid reveal-stagger">
+
+        <div class="tcard">
+          <span class="quote">"</span>
+          <div class="stars">★★★★★</div>
+          <p class="ttext">A Ellos transformou completamente nossa presença digital. O site ficou muito além das expectativas e as vendas cresceram 80% em apenas 3 meses após o lançamento.</p>
+          <div class="tauthor">
+            <div class="tavatar">RM</div>
+            <div>
+              <div class="tname">Ricardo Moraes</div>
+              <div class="trole">CEO, ReStore Digital</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tcard">
+          <span class="quote">"</span>
+          <div class="stars">★★★★★</div>
+          <p class="ttext">Equipe super profissional, criativa e sempre pontual. A identidade visual que criaram representa perfeitamente nossos valores e tem gerado muito reconhecimento de marca.</p>
+          <div class="tauthor">
+            <div class="tavatar">AC</div>
+            <div>
+              <div class="tname">Ana Costa</div>
+              <div class="trole">Fundadora, Nexio Studio</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tcard">
+          <span class="quote">"</span>
+          <div class="stars">★★★★★</div>
+          <p class="ttext">Investir na Ellos foi a melhor decisão que tomamos. O trabalho de SEO e marketing triplicou nosso tráfego orgânico em apenas 6 meses. Recomendo demais!</p>
+          <div class="tauthor">
+            <div class="tavatar">PL</div>
+            <div>
+              <div class="tname">Paulo Lima</div>
+              <div class="trole">Diretor, Ativa Marketing</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       CONTATO
+  ═══════════════════════════════════════════ -->
+  <section class="contact" id="contato">
+    <div class="container">
+
+      <div class="reveal" style="text-align:center; max-width:520px; margin:0 auto;">
+        <span class="section-tag">Contato</span>
+        <h2 class="section-title">Pronto para crescer<br>no digital?</h2>
+        <p class="section-desc" style="margin:0 auto;">Vamos conversar sobre o seu projeto. Respondemos em até 24 horas.</p>
+      </div>
+
+      <div class="contact-inner reveal">
+
+        <!-- Formulário -->
+        <form class="contact-form" onsubmit="return false">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Nome completo</label>
+              <input class="form-input" type="text" placeholder="Seu nome" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">E-mail</label>
+              <input class="form-input" type="email" placeholder="seu@email.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Assunto</label>
+            <input class="form-input" type="text" placeholder="Ex: Desenvolvimento de site" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Mensagem</label>
+            <textarea class="form-textarea" placeholder="Conte um pouco sobre o seu projeto..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="align-self:flex-start; margin-top:4px;">
+            Enviar mensagem
+            <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </form>
+
+        <!-- Informações de contato -->
+        <div class="contact-info">
+
+          <div class="cinfo-item">
+            <div class="cinfo-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <div class="cinfo-title">Localização</div>
+              <div class="cinfo-val">Guarulhos, São Paulo — SP</div>
+            </div>
+          </div>
+
+          <div class="cinfo-item">
+            <div class="cinfo-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <div class="cinfo-title">E-mail</div>
+              <div class="cinfo-val">vagas@ellosdesign.com.br</div>
+            </div>
+          </div>
+
+          <div class="cinfo-item">
+            <div class="cinfo-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="cinfo-title">WhatsApp</div>
+              <div class="cinfo-val">(11) 9 9999-9999</div>
+            </div>
+          </div>
+
+          <div class="cinfo-item">
+            <div class="cinfo-icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div>
+              <div class="cinfo-title">Atendimento</div>
+              <div class="cinfo-val">Segunda a Sexta, 9h às 18h</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">Ellos<span style="color:var(--accent)">.</span></a>
+          <p>Agência de marketing e criação de sites em Guarulhos/SP. Transformamos ideias em resultados digitais concretos.</p>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Serviços</div>
+          <ul class="footer-links">
+            <li><a href="#servicos">UI/UX Design</a></li>
+            <li><a href="#servicos">Desenvolvimento Web</a></li>
+            <li><a href="#servicos">Marketing Digital</a></li>
+            <li><a href="#servicos">SEO &amp; Performance</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Empresa</div>
+          <ul class="footer-links">
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Contato</div>
+          <ul class="footer-links">
+            <li><a href="mailto:vagas@ellosdesign.com.br">vagas@ellosdesign.com.br</a></li>
+            <li><a href="#">Guarulhos, SP</a></li>
+            <li><a href="#">(11) 9 9999-9999</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span class="footer-copy">© 2024 Ellos Design. Todos os direitos reservados.</span>
+        <div class="footer-social">
+          <a href="#" class="soc-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" stroke="none">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+          </a>
+          <a href="#" class="soc-btn" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" stroke="none">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a href="#" class="soc-btn" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" stroke="none">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Script principal -->
+  <script src="js/main.js"></script>
+</body>
+</html>
